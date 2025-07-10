@@ -34,7 +34,9 @@ class $modify(StupidGarageLayer, GJGarageLayer){
         auto bounceJet2 = CCSequence::create(CCScaleTo::create(0.f, jetScale + 0.100f), CCEaseExponentialOut::create(CCScaleTo::create(0.2f, jetScale)), nullptr);
 
         m_playerObject->stopAllActions();
-        fakeAssGlow->stopAllActions();
+	if (fakeAssGlow){
+		fakeAssGlow->stopAllActions();
+	}
         
         if (m_selectedIconType == IconType::Jetpack) {
             m_playerObject->runAction(bounceJet1);
