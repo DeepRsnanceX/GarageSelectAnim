@@ -1,0 +1,27 @@
+{
+	"geode": "4.6.2",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"resources": {
+		"files": [
+			"resources/*.ogg"
+		]
+	},
+	"settings": {
+		"garage-select-anim": {
+			"type": "bool",
+			"name": "Icon Select Animation",
+			"description": "Enables a small scaling animation + a sound when selecting icons in the Icon Kit.",
+			"default": true
+		}
+	},
+	"id": "saritahhh.garageselectanim",
+	"name": "Garage Select Animation",
+	"version": "v1.0.0",
+	"developer": "Saritahhh",
+	"description": "Play a small animation when selecting Icons!"
+}
